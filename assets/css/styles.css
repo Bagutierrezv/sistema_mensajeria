@@ -9,14 +9,18 @@
 
 .contenedor-general{
     display: flex;
+    
 
-    /*border: 2px solid red
-}*/
+    border: 2px solid #BEC1BB;
+}
 
 .contenedor-izquierdo{
     width: 35%;
     height: 100vh;
-    border: 2px solid #BEC1BB;
+    
+
+
+    border-right: 2px solid #BEC1BB;
 
     /*border: 2px solid blue*/
 }
@@ -129,10 +133,28 @@ button{
 
 /*Cuarta parte - main*/
 
-main{
+main {
+    background-color: #F8F8F8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
+
+main > img{
+    width: 16rem;
+}
+
+.text-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.5rem 10rem;
+    
+}
+
+.text-main > h1{
+    margin-bottom: 1rem;
+}
+

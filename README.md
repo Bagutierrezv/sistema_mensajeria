@@ -1,3 +1,3 @@
-# Distema de Mensajería
+# Sistema de Mensajería
 
 Trabajado solo con Flex
